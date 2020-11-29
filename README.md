@@ -11,3 +11,4 @@
 |171|[ Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)|[C++](./solutions/171.%20Excel%20Sheet%20Column%20Number.cpp)|4 ms|
 |283|[ Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[C++](./solutions/283.%20Move%20Zeroes.cpp)|8 ms|
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./solutions/344.%20Reverse%20String.cpp)|36 ms|
+|350|[ Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[C++](./solutions/350.%20Intersection%20of%20Two%20Arrays%20II.cpp)|12 ms|
