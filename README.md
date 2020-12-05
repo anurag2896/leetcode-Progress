@@ -5,6 +5,7 @@
 |1|[ Two Sum](https://leetcode.com/problems/two-sum/)|[C++](./solutions/1.%20Two%20Sum.cpp)|8 ms|
 |7|[ Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[C++](./solutions/7.%20Reverse%20Integer.cpp)|4 ms|
 |13|[ Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[C++](./solutions/13.%20Roman%20to%20Integer.cpp)|24 ms|
+|14|[ Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[C++](./solutions/14.%20Longest%20Common%20Prefix.cpp)|8 ms|
 |20|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](./solutions/20.%20Valid%20Parentheses.cpp)|0 ms|
 |21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[C++](./solutions/21.%20Merge%20Two%20Sorted%20Lists.cpp)|12 ms|
 |38|[ Count and Say](https://leetcode.com/problems/count-and-say/)|[C++](./solutions/38.%20Count%20and%20Say.cpp)|8 ms|
