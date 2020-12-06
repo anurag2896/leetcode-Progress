@@ -9,7 +9,7 @@
 |20|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[C++](./solutions/20.%20Valid%20Parentheses.cpp)|0 ms|
 |21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[C++](./solutions/21.%20Merge%20Two%20Sorted%20Lists.cpp)|12 ms|
 |38|[ Count and Say](https://leetcode.com/problems/count-and-say/)|[C++](./solutions/38.%20Count%20and%20Say.cpp)|8 ms|
-|46|[ Permutations](https://leetcode.com/problems/permutations/)|[C++](./solutions/46.%20Permutations.cpp)|4 ms|
+|46|[ Permutations](https://leetcode.com/problems/permutations/)|[C++](./solutions/46.%20Permutations.cpp)|8 ms|
 |66|[ Plus One](https://leetcode.com/problems/plus-one/)|[C++](./solutions/66.%20Plus%20One.cpp)|0 ms|
 |69|[ Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[C++](./solutions/69.%20Sqrt(x).cpp)|4 ms|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[C++](./solutions/70.%20Climbing%20Stairs.cpp)|0 ms|
