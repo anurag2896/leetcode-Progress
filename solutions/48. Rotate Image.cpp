@@ -2,13 +2,14 @@ class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
         reverse(matrix.begin(), matrix.end());
-        // print(matrix);
         int len=matrix.size();
         for(int i=0; i<len; i++) {
             for(int j=i+1; j<len; j++) {
                 swap(matrix[i][j], matrix[j][i]);
             }
         }
+        // reverse(matrix.begin(), matrix.end());
+        
     }
     
 //     void print(vector<vector<int>> &matrix) {
