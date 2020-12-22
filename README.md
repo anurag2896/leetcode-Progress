@@ -16,6 +16,7 @@ My solutions to leetcode problems, may or may not be optimal solutions.
 |38|[ Count and Say](https://leetcode.com/problems/count-and-say/)|[C++](./solutions/38.%20Count%20and%20Say.cpp)|8 ms|
 |46|[ Permutations](https://leetcode.com/problems/permutations/)|[C++](./solutions/46.%20Permutations.cpp)|8 ms|
 |48|[ Rotate Image](https://leetcode.com/problems/rotate-image/)|[C++](./solutions/48.%20Rotate%20Image.cpp)|0 ms|
+|49|[ Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[C++](./solutions/49.%20Group%20Anagrams.cpp)|64 ms|
 |50|[ Pow(x, n)](https://leetcode.com/problems/powx-n/)|[C++](./solutions/50.%20Pow(x%2C%20n).cpp)|0 ms|
 |54|[ Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[C++](./solutions/54.%20Spiral%20Matrix.cpp)|0 ms|
 |66|[ Plus One](https://leetcode.com/problems/plus-one/)|[C++](./solutions/66.%20Plus%20One.cpp)|0 ms|
