@@ -45,6 +45,7 @@ My solutions to leetcode problems, may or may not be optimal solutions.
 |191|[ Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[C++](./solutions/191.%20Number%20of%201%20Bits.cpp)|4 ms|
 |202|[ Happy Number](https://leetcode.com/problems/happy-number/)|[C++](./solutions/202.%20Happy%20Number.cpp)|0 ms|
 |204|[ Count Primes](https://leetcode.com/problems/count-primes/)|[C++](./solutions/204.%20Count%20Primes.cpp)|188 ms|
+|206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[C++](./solutions/206.%20Reverse%20Linked%20List.cpp)|4 ms|
 |215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[C++](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.cpp)|24 ms|
 |217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[C++](./solutions/217.%20Contains%20Duplicate.cpp)|64 ms|
 |230|[ Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[C++](./solutions/230.%20Kth%20Smallest%20Element%20in%20a%20BST.cpp)|28 ms|
