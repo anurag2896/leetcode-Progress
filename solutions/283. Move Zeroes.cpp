@@ -1,17 +1,21 @@
 class Solution {
 public:
-    void moveZeroes(vector<int>& a) {
-        int snowballsize=0, temp;
-        for(auto i=0; i<a.size(); i++) {
-            if(a[i]==0) {
-                snowballsize++;
-            } 
-            else if(snowballsize) {
-                temp = a[i];
-                a[i]=0;
-                a[i-snowballsize] = temp;
+    void moveZeroes(vector<int>& nums) {
+        int start=0, end=nums.size()-1, count=0;
+        for(auto el:nums) {
+            if(el==0)
+                count++;
+        }
+        for(auto i=0; i<nums.size(); i++) {
+            if(nums[i]!=0) {
+                nums[start]=nums[i];
+                start++;
             }
         }
         
+        while(count--) {
+            nums[end]=0;
+            end--;
+        }
     }
 };
