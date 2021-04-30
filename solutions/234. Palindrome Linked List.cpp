@@ -10,24 +10,36 @@
  */
 class Solution {
 public:
+    ListNode *reverse(ListNode *head) {
+        if(!head || !head->next)
+            return head;
+        ListNode *rh=reverse(head->next);
+        ListNode *rt=head->next;
+        rt->next=head;
+        head->next=NULL;
+        
+        return rh;
+    }
+    
     bool isPalindrome(ListNode* head) {
-        ListNode *temp=head;
-        stack <int> s;
-        int top;
-        while(temp!=NULL) {
-            s.push(temp->val);
-            temp=temp->next;
+        if(!head || !head->next)
+            return true;
+        ListNode *fast=head, *slow=head, *nh;
+        while(fast->next && fast->next->next) {
+            slow=slow->next;
+            fast=fast->next->next;
         }
         
-        temp=head;
-        while(!s.empty() || temp!=NULL) {
-            top=s.top();
-            if(top!=temp->val)
+        nh = reverse(slow->next);
+        
+        while(head && nh){
+            cout<<head->val<<" "<<nh->val<<endl;
+            if(head->val==nh->val) {
+                head=head->next;
+                nh=nh->next;
+            } else
                 return false;
-            else {
-                temp=temp->next;
-                s.pop();
-            }
+            
         }
         
         return true;
