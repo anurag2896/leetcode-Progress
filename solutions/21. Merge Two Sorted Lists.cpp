@@ -11,49 +11,32 @@
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
-        if(l1==NULL)
-            return l2;
-        if(l2==NULL)
-            return l1;
+        ListNode* head, *temp;
+        if(NULL == l1) return l2;
+        if(NULL == l2) return l1;
         
-//         TRY ITERATIVE APPROACH
-        
-//         ListNode* head, *temp;
-//         if(l1->val < l2->val)
-//             head = l1;
-//         else
-//             head = l2;
-        
-//         while(l1->next!=NULL || l2->next!=NULL) {
-//             if(l1->val < l2->val) {
-//                 temp = l1->next;
-//                 if(temp->val > l2->val) {
-//                     l1->next = l2;
-//                     l1=temp;
-//                 } else 
-//                     l1 = l1->next;
-//             } else if(l1->val >= l2->val) {
-//                 temp = l2->next;
-//                 if(temp->val >= l1->val) {
-//                     l2->next = l1;
-//                     l2=temp;
-//                 } else 
-//                     l2 = l2->next;
-//             } else if(l1->next = NULL) {
-//                 l1->next = l2;
-//             } else if(l2->next = NULL) {
-//                 l2->next = l1;
-//             }
-//         }
-        
-        ListNode *head=NULL;
-        if(l1->val<=l2->val){
+        if(l1->val<l2->val) {
             head=l1;
-            l1->next=mergeTwoLists(l1->next, l2);
+            l1=l1->next;
         } else {
             head=l2;
-            l2->next=mergeTwoLists(l1, l2->next);
+            l2=l2->next;
         }
+        
+        temp=head;
+        
+        while(l1 && l2) {
+            if(l1->val<l2->val) {
+                temp->next=l1;
+                l1=l1->next;
+            } else {
+                temp->next=l2;
+                l2=l2->next;
+            }
+            temp=temp->next;
+        }
+        
+        temp->next = l1 ? l1 : l2;
         
         return head;
     }
