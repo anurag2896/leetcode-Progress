@@ -1,48 +1,39 @@
+class MinStack {
 public:
     /** initialize your data structure here. */
-    int min=INT_MAX;
-    vector<int> a;
-    vector<int> minv;
     
-    MinStack() { 
+    stack <int> s;
+    stack <int> s1;
+    
+    MinStack() {
     }
     
-    void push(int x) {
-        // cout<<"here pushINA"<<" ";
-        a.push_back(x);
-        if(x<=min) {
-            minv.push_back(x);
-            min=x;
-            // cout<<"here pushminV"<<" ";
+    void push(int val) {
+        s.push(val);
+        if(s1.empty() || val<=s1.top()) {
+            s1.push(val);
         }
     }
     
     void pop() {
-        if(a.back()==minv.back()) {
-            // cout<<"here popMINV"<<" ";
-            minv.pop_back();
-        }
-        a.pop_back();
-        
-        min=minv.empty() ? INT_MAX : minv.back();
-        // cout<<"here popA"<<" ";
+        if(s.top()==s1.top())
+            s1.pop();
+        s.pop();
     }
     
     int top() {
-        // cout<<"here TOP"<<" ";
-        return a.back();
+        return s.top();
     }
     
     int getMin() {
-        // cout<<"here GETMin"<<" ";
-        return minv.back();
+        return s1.top();
     }
 };
 ​
 /**
  * Your MinStack object will be instantiated and called as such:
  * MinStack* obj = new MinStack();
- * obj->push(x);
+ * obj->push(val);
  * obj->pop();
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
