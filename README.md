@@ -68,3 +68,4 @@ My solutions to leetcode problems, may or may not be optimal solutions.
 |448|[ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[C++](./solutions/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.cpp)|88 ms|
 |454|[ 4Sum II](https://leetcode.com/problems/4sum-ii/)|[C++](./solutions/454.%204Sum%20II.cpp)|292 ms|
 |509|[ Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[C++](./solutions/509.%20Fibonacci%20Number.cpp)|16 ms|
+|785|[ Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)|[C++](./solutions/785.%20Is%20Graph%20Bipartite%3F.cpp)|27 ms|
